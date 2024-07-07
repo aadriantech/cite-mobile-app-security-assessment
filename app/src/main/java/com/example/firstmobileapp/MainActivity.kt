@@ -36,10 +36,10 @@ fun MainContent(modifier: Modifier = Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        Greeting(name = "Android")
+        Greeting(name = "Adrian")
         Spacer(modifier = Modifier.height(16.dp))
         Button(onClick = { /* TODO: Add action here */ }) {
-            Text(text = "Click Me")
+            Text(text = "Start")
         }
     }
 }

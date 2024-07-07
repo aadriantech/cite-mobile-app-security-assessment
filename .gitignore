@@ -1,16 +1,72 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
 local.properties
+
+# Log files
+*.log
+
+# Android Studio files
 .idea/
+*.iml
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+build.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Generated files
+bin/
+gen/
+out/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystore files
+*.jks
+*.keystore
+
+# APK and ProGuard files
+*.apk
+*.ap_
+proguard/
+
+# Google Services
+google-services.json
+
+# Compiled class files
+*.class
+
+# Node.js files (if using React Native or any Node tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# JetBrains specific files (IntelliJ IDEA, Android Studio)
+.idea/
+*.iws
+.idea_modules/
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Ignore smali files and directories
+*.smali
+base/smali_classes5/
+base/smali_classes4/
+base/smali_classes3/
+base/smali_classes2/
+base/smali_classes/
+
+# Ignore IntelliJ-specific annotation files
+base/annotations/
+
+# End of the combined .gitignore
